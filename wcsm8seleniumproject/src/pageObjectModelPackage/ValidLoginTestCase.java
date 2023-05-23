@@ -17,7 +17,7 @@ public class ValidLoginTestCase extends BaseTest {
 		Homepage hp = new Homepage(driver);
 		Flib flib = new Flib();
 		
-		lp.validLogin(flib.readPropertyData(PROP_PATH,"Username"),flib.readPropertyData(PROP_PATH,"Password"));
+		lp.validLogin(flib.readPropertyData(PROP_PATH,"username"),flib.readPropertyData(PROP_PATH,"password"));
 		
 		Thread.sleep(2000);
 		hp.loginMethod();

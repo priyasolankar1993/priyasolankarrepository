@@ -12,9 +12,9 @@ public class ValidLoginTestcase extends BaseTest {
 		// read the data from property file
 		Flib flib = new Flib();
 		bt.openBrowser();
-		driver.findElement(By.name("username")).sendKeys(flib.readPropertyData(PROP_PATH, "Username"));
+		driver.findElement(By.name("username")).sendKeys(flib.readPropertyData(PROP_PATH, "username"));
 		Thread.sleep(2000);
-		driver.findElement(By.name("pwd")).sendKeys(flib.readPropertyData(PROP_PATH, "Password"));
+		driver.findElement(By.name("pwd")).sendKeys(flib.readPropertyData(PROP_PATH, "password"));
 		Thread.sleep(2000);
 		driver.findElement(By.id("loginButton")).click();
 		Thread.sleep(2000);
