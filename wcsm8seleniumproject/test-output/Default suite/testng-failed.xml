@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGpackage.SelectBrowser">
+      <class name="testNGFlags.AlwaysRun">
         <methods>
-          <include name="method1"/>
+          <include name="userCreateMethod"/>
+          <include name="logoutMethod"/>
+          <include name="loginMethod"/>
         </methods>
-      </class> <!-- testNGpackage.SelectBrowser -->
+      </class> <!-- testNGFlags.AlwaysRun -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
