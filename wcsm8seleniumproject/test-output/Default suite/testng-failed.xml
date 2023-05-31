@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGFlags.AlwaysRun">
+      <class name="dynamicScreenShot.ActitimeDataProvider">
         <methods>
-          <include name="userCreateMethod"/>
-          <include name="logoutMethod"/>
-          <include name="loginMethod"/>
+          <include name="loginInvalid"/>
+          <include name="setUp"/>
+          <include name="property"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- testNGFlags.AlwaysRun -->
+      </class> <!-- dynamicScreenShot.ActitimeDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
