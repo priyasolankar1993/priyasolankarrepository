@@ -11,8 +11,6 @@ public interface IAutoConstant {
 	String EDGE_PATH="./drivers/msedgedriver.exe";
 	
 	String EXCEL_PATH="./data/ActitimeTestData.xlsx";
-	String EXCEL_PATH1="./data/ActitimeLoginCredentials.xlsx";
-	String EXCEL_PATH2="./data/TestData.xlsx";
 	String SCREENSHOT_PATH="./screenShots/";
 	
 	
